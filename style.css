@@ -65,14 +65,13 @@
     max-width: 100%;
     height: auto;
     top: 100px;
-    
   }
   .home h3{
     position: absolute;
     width: 902px;
     height: 215px;
     left: 17px;
-    top: 240px;
+    top: 220px;
     background-color: transparent;
     font-family: 'Quattrocento';
     font-style: normal;
@@ -83,6 +82,24 @@
     letter-spacing: 0.09em;
     background-color: none;
     color: #FFFFFF;     
+  }
+  .home p{
+    position: absolute;
+    width: 599px;
+    height: 325px;
+    left: 116px;
+    top: 540px;
+    background-color: transparent;
+    font-family: 'Ruda';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 40px;
+/* or 160% */
+
+  letter-spacing: 0.05em;
+
+  color: #FFFFFF;
   }
   .about {
     width: 80%;
@@ -195,6 +212,17 @@
     display: flex;
     gap: 22px;
 }
-  
+.home h5{
+  box-sizing: border-box;
+
+position: absolute;
+width: 500px;
+height: 13px;
+left: 116px;
+top: 500px;
+background-color: #F24C4C;
+color: #F24C4C;
+
+}
     
   
